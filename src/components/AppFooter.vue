@@ -38,7 +38,21 @@ export default {
             </div>
         </section>
         <section id="bottom-footer">
-
+            <div class="footer-jumbotron container d-flex align-items-center justify-content-between">
+                <div class="sign-up col-7">
+                    <button type="button" class="btn btn-outline-primary">SIGN-UP NOW!</button>
+                </div>
+                <div class="icons-footer d-flex col-5 gap-5">
+                    <a href="#">
+                        FOLLOW US
+                    </a>
+                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                </div>
+            </div>
         </section>
     </footer>
 </template>
@@ -52,10 +66,7 @@ export default {
 }
 
 .logo {
-    img {
-        position: relative;
-        z-index: 0;
-    }
+    img {}
 }
 
 li {
@@ -77,10 +88,18 @@ ul {
 }
 
 #bottom-footer {
-    position: relative;
-    bottom: 0;
-    z-index: 2;
-    height: 100px;
+    height: 150px;
     background-color: #2C2C2C;
+}
+
+
+.icons-footer {
+    a {
+        text-decoration: none;
+    }
+}
+
+.footer-jumbotron {
+    height: 100%;
 }
 </style>

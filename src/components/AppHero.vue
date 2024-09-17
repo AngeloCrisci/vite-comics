@@ -18,7 +18,5 @@ export default {
 nav {
     height: 150px;
     background-color: #0282F9;
-    z-index: 1;
-    position: relative;
 }
 </style>
