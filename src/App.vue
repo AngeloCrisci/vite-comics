@@ -2,12 +2,14 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   components: {
     AppHeader,
     AppMain,
     AppFooter,
+    AppHero,
   }
 }
 
@@ -15,12 +17,13 @@ export default {
 </script>
 
 <template>
-  <AppHeader/>
-  <AppMain/>
-  <AppFooter/>
+  <AppHeader />
+  <AppMain />
+  <AppHero />
+  <AppFooter />
 </template>
 
 <style lang="scss">
-    @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
-    @use 'style.scss' as *;
+@use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
+@use 'style.scss' as *;
 </style>
