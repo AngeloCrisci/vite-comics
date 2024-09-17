@@ -2,18 +2,16 @@
 export default {
   data() {
     return {
-      count: 0
+      name: 'AppMain'
     }
   }
 }
 </script>
 
 <template>
-  <button @click="count++">Count is: {{ count }}</button>
+  
 </template>
 
-<style scoped>
-button {
-  font-weight: bold;
-}
+<style scoped lang="scss">
+
 </style>
